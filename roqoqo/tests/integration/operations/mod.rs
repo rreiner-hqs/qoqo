@@ -40,6 +40,9 @@ pub use supported_version::*;
 mod bosonic_operations;
 pub use bosonic_operations::*;
 
+mod spin_boson_operations;
+pub use spin_boson_operations::*;
+
 use nalgebra as na;
 use ndarray::Array2;
 use num_complex::Complex64;
